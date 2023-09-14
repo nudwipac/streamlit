@@ -3,10 +3,10 @@ import pymysql
 
 def connectdb():
     connection = pymysql.connect(
-        host='localhost',
-        user='root',
-        password='',
-        db='pythondb',
+        host='b9yra2epa2xtxtb3jdov-mysql.services.clever-cloud.com',  # 'localhost',
+        user='ucepxxourcxvoskx',  # 'root',
+        password='O287ngXlhlPwPwSpdFEV',
+        db='b9yra2epa2xtxtb3jdov',  # 'pythondb',
         port=3306,
         cursorclass=pymysql.cursors.DictCursor
     )
